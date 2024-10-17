@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 300px;
+  padding-top: 34px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.button_one {
+  width: 123px;
+  height: 39px;
+  background: #4060ff;
+  border-radius: 4px;
+  color: #d3d3d3;
+}
+
+.text_header {
+  width: 86px;
+  height: 19px;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #d3d3d3;
+}
+
+.nav {
+  display: flex;
+  gap: 52px;
+}
+
+.link {
+  display: flex;
+  gap: 300px;
+  text-decoration: none;
+  outline: none;
+  color: inherit;
+}
